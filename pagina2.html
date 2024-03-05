@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementacion Bootstrap</title>
+    <link rel="stylesheet" href="estilo.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+
+    <!--Filas obtenido de Bootstrap-->
+    <div class="container text-center">
+        <div class="row">
+
+          <div class="col">Column</div>
+          <div class="col">Column</div>
+          <div class="col">Column</div>          
+        </div>
+      </div>
+
+
+      <BR>   <!--ESPACIADO DE SEPARACION-->
+
+    <!--FILAS y COLUMNAS obtenido de Bootstrap-->
+    <div class="container text-center">
+        
+        <div class="row">
+          <div class="col"> 1 of 2</div>
+          <div class="col">2 of 2</div>
+        </div>
+
+        <div class="row">
+          <div class="col">1 of 3</div>
+          <div class="col">2 of 3</div>
+          <div class="col">3 of 3</div>
+        </div>
+
+    </div>
+
+
+    <BR>
+
+    <!--Tamaño de las columnas-->
+    <!--Hay 12 espacios de columnas, el numero seguido de "COL"indica
+    la cantitad de secciones (12/col#)
+    si COL no indica numero, se asignara de modo automatico para
+    que las columnas ocupen el mismo espacio-->
+
+    <div class="row">
+        <div class="col-6">Columna 1</div> <!--En este caso cada columna ocupa la mitad del espacio y por eso-->
+        <div class="col-6">Columna 2</div>  <!--por eso se ajustan los sobrantes en nuevas filas-->
+        <div class="col-6">Columna 3</div>
+        <div class="col-6">Columna 4</div>
+        <div class="col-6">Columna 5</div>
+    </div>
+
+    <BR>
+
+    <div class="row">
+        <div class="col-2">Columna 1</div>
+        <div class="col-2">Columna 2</div>
+        <div class="col-2">Columna 3</div>
+        <div class="col-2">Columna 4</div>
+        <div class="col-2">Columna 5</div>
+        <div class="col-2">Columna 6</div>
+    </div>
+
+    <BR><BR>
+
+    <div class="row">
+        <div class="col">Columna 1</div>
+        <div class="col">Columna 2</div>
+        <div class="col">Columna 3</div>
+        <div class="col">Columna 4</div>
+    </div>
+
+    <BR><BR>
+
+
+    <div class="row text-center">
+        <div class="col-6 bg-primary">Columna 1</div>
+        <div class="col-6 bg-danger-subtle" >Columna 2</div>
+        <div class="col-12 bg-info-subtle">Columna 3</div>
+    </div>
+      
+    <BR><BR>
+    
+    <!--FOOTER-->
+    <section class="text-center container bg-danger-subtle mt-5 p-5 text-white"> 
+                  <!--centra text,margen lateral,color rosa, margin top 5,padding 5,texto blanco--> 
+        <div class="row">
+            <div class="col">Lorem ipsum dolor sit amet.</div>
+            <div class="col">Lorem ipsum dolor sit amet.</div>
+            <div class="col">Lorem ipsum dolor sit amet.</div>
+        </div>
+    </section>
+        
+    <!--FOOTER FIN-->
+
+
+
+</body>
+
+
+</html>
